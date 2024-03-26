@@ -1,0 +1,17 @@
+.skillList{
+    margin-top: 25px;
+    padding: 0px 0px 0px 15px;
+}
+
+.skillList > li::marker{
+    color: white;
+}
+
+.skillList > ul{
+    margin: 5px 0;
+    text-indent: 0;
+}
+
+.skillList li{
+    margin-bottom: 10px;    
+}

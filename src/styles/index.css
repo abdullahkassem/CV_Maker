@@ -1,0 +1,46 @@
+:root{
+  --Color1: #B9E3C6;
+  --Color2: #59C9A5;
+  --Color3: #D81E5B;
+  --Color4: #23395B;
+  --Color5: #FFFD98;
+  width: 100%;
+  
+}
+
+#root{
+  flex: 1;
+}
+
+@font-face {
+  font-family: 'lato';
+  src: url('../fonts/lato-regular-webfont.woff2') format('woff2'),
+       url('lato-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'Garet';
+  src: url(../fonts/Garet-Book.woff) format('woff'),
+       url(../fonts/Garet-Book.woff2) format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Garet-heavy';
+  src: url(../fonts/Garet-Heavy.woff) format('woff'),
+       url(../fonts/Garet-Heavy.woff2) format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body{
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  margin:0;
+  background-color: var(--Color1);
+  display: flex;
+  
+}

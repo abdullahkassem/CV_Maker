@@ -1,0 +1,20 @@
+h1.resName{
+    width:fit-content;
+    color: var(--resMainColor);
+    font-weight: normal;
+    font-size: 50px;
+    margin:0;
+    letter-spacing: 1px;
+}
+
+.ResName_Title{
+    margin-top: 40px; 
+}
+
+.ResName_Title > h2{
+    margin: 0;
+    color: var(--resMainColor);
+    font-weight: normal;
+    font-size: 25px;
+    letter-spacing: 2px;
+}

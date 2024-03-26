@@ -1,0 +1,13 @@
+.SideSectionTitle h2{
+    font-family: 'Garet-Heavy';
+    font-size: xx-large;
+    letter-spacing:1px;
+    font-weight:normal;
+    margin: 20px 0 3px 0;
+    
+}
+
+.SideSectionTitle hr{
+    border-color: white;
+    margin: 0;
+}

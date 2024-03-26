@@ -1,0 +1,32 @@
+.header{
+    display: flex;
+    background-color: var(--Color2);
+    padding: 10px 100px;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+
+.header_text{
+    flex: 0 0 auto;
+}
+
+.HButtonContainer{
+    flex: 0 0 auto;  
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 15px;
+}
+
+.headerButton{
+    background-color: var(--Color5);
+
+    border: 0;
+    height: fit-content;
+    padding: 10px 30px;
+    font-size: larger;
+    border-radius: 50px;
+    color:var(--Color4);
+    font-weight: bold;
+}
