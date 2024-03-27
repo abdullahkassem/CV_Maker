@@ -1,0 +1,32 @@
+.ReferEntriesContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.RefernceSectEntry{
+    display: grid;
+    row-gap: 10px;
+}
+
+.RefernceSectEntry *{
+    margin: 0;
+}
+
+.RefernceSectEntry .name{
+    font-size: x-large;
+}
+
+.RefernceSectEntry .job-cmp{
+    font-size: medium;
+    color: var(--res2ndColor);
+}
+
+.RefernceSectEntry .details {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 5px;
+}
+
+.RefernceSectEntry .details p{
+    color: var(--res2ndColor);
+}
