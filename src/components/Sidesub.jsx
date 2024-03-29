@@ -15,7 +15,7 @@ function Sidesub(props){
             <h3 >{props.head}</h3>
 
             <Editable 
-            editTrueFunc={()=>(<input type="text" onChange={changeHandle} value={value}/>)} 
+            editTrueFunc={()=>(<input type="text" name={props.head} onChange={changeHandle} value={value}/>)} 
             editFalseFunc={()=>(<h4 >{value}</h4>)}
             />
             

@@ -7,12 +7,12 @@ import ResContent from './ResContent.jsx'
 function Resume(){
 
     return(
-        <div className="resumeContainer">
-            
+        <form action="">
+            <div className="resumeContainer">
                 <ResumeSideBar />
-                <ResContent/>
-            
-        </div>
+                <ResContent/>   
+            </div>
+        </form>
     )
 }
 

@@ -20,7 +20,9 @@
 		"prefix": "editme",
 		"body": [
 			"<Editable ",
-            "editTrueFunc={()=>( )}",
+            "editTrueFunc={()=>( ",
+			"",
+			")}",
             "editFalseFunc={()=>( )}",
             "/>"
 		]
@@ -30,8 +32,9 @@
 		"prefix": "myState",
 		"body": [
 			"const [$1, set$1] = useState(  );",
+			"<label >$1</label>",
 			" <input type='text' value={$1} onChange={(e)=>set$1(e.target.value)} /> ",
-			" <p>{$1}</p> "
+			
 		]
 	}
 
