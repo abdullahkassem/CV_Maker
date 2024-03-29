@@ -1,16 +1,17 @@
 import './styles/App.css'
 import Content from './components/content.jsx'
 import Header from './components/header.jsx'
-import HeaderButton from './components/HeaderButton.jsx'
+import { EditContext } from './components/EditContext.jsx'
+import { useContext,useState } from 'react'
 
 function App() {
-  
-
+  const [edit,setEdit] = useState('1');
   return (
     <div>
-      <Header />
-      <Content />
-      <HeaderButton/>
+      <EditContext.Provider value={{edit,setEdit}}>
+        <Header editState={{edit,setEdit}} />
+        <Content />
+      </EditContext.Provider>
     </div>
   )
 }

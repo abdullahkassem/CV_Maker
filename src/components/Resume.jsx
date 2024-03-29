@@ -8,8 +8,10 @@ function Resume(){
 
     return(
         <div className="resumeContainer">
-            <ResumeSideBar />
-            <ResContent/>
+            
+                <ResumeSideBar />
+                <ResContent/>
+            
         </div>
     )
 }
