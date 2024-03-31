@@ -1,4 +1,5 @@
 import '../styles/Resume.css'
+import '../styles/editMode.css'
 import ResumeSideBar from './ResumeSideBar.jsx'
 import ResContent from './ResContent.jsx'
 
@@ -7,7 +8,7 @@ import ResContent from './ResContent.jsx'
 function Resume(){
 
     return(
-        <form action="">
+        <form >
             <div className="resumeContainer">
                 <ResumeSideBar />
                 <ResContent/>   

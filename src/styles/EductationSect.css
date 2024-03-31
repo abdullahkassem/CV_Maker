@@ -23,3 +23,21 @@
     font-size: 15px;
     font-weight: bold;
 }
+
+.EducationEntryEdit{
+    grid-template-columns: repeat(2, 1fr) ;
+    max-width: 100%;
+    
+}
+
+.EducationEntryEdit input:nth-child(3),
+.EducationEntryEdit input:nth-child(4){
+    grid-column: 1/3;
+    width: auto;
+    /* box-sizing: border-box; */
+}
+
+.EducationEntryEdit input{
+    width: 88%;
+    
+}

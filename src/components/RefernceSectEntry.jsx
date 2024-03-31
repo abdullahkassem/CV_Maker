@@ -18,13 +18,13 @@ export default function (props) {
         <div className="RefernceSectEntry">
             {edit.edit == "1" ? (
                 <label>
-                    name{" "}
+                    Name
                     <input
                         type="text"
                         name={"name" + thisID}
                         value={name}
                         onChange={(e) => setName(e.target.value)}
-                    />{" "}
+                    />
                 </label>
             ) : (
                 <h2 className="name">{name}</h2>
@@ -33,7 +33,7 @@ export default function (props) {
             {edit.edit == "1" ? (
                 <>
                     <label>
-                        jobPos
+                        Job Position
                         <input
                             type="text"
                             name={"jobPos" + thisID}
@@ -43,7 +43,7 @@ export default function (props) {
                     </label>
 
                     <label>
-                        cmpName
+                        Company Name
                         <input
                             type="text"
                             name={"cmpName" + thisID}
@@ -59,15 +59,12 @@ export default function (props) {
             <div className="details">
                 <h4>Phone: </h4>
                 {edit.edit == "1" ? (
-                    <label>
-                        phone
-                        <input
-                            type="text"
-                            name={"phone" + thisID}
-                            value={phone}
-                            onChange={(e) => setPhone(e.target.value)}
-                        />
-                    </label>
+                    <input
+                        type="text"
+                        name={"phone" + thisID}
+                        value={phone}
+                        onChange={(e) => setPhone(e.target.value)}
+                    />
                 ) : (
                     <p>{phone}</p>
                 )}
@@ -75,15 +72,12 @@ export default function (props) {
             <div className="details">
                 <h4>Email: </h4>
                 {edit.edit == "1" ? (
-                    <label>
-                        email
-                        <input
-                            type="text"
-                            name={"email" + thisID}
-                            value={email}
-                            onChange={(e) => setEmail(e.target.value)}
-                        />
-                    </label>
+                    <input
+                        type="text"
+                        name={"email" + thisID}
+                        value={email}
+                        onChange={(e) => setEmail(e.target.value)}
+                    />
                 ) : (
                     <p>{email}</p>
                 )}
