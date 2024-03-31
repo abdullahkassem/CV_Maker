@@ -1,9 +1,20 @@
 .AddButtonContainer{
     display: grid;
-    grid-template-columns: 1fr 1fr ;
+    grid-template-columns: 1fr auto ;
     padding-right: 10px;
+    
 }
 
 .AddButtonContainer input{
+    min-width: 0;
+}
 
+.AddButtonContainer button{
+    background-color: var(--Color1);
+    border: none;
+    height: fit-content;
+    width: fit-content;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: small;
 }

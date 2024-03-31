@@ -8,11 +8,9 @@ export default function (props) {
     const [jobPos, setJobPos] = useState(props.jobPos);
     const [cmpName, setCmpName] = useState(props.cmpName);
     const [phone, setPhone] = useState(props.phone);
-    const [email, setEmail] = useState(props.Email);
+    const [MyEmail, setMyEmail] = useState(props.email);
 
     const thisID = useId();
-
-    //{(edit.edit=='1')?():()}
 
     return (
         <div className="RefernceSectEntry">
@@ -75,11 +73,11 @@ export default function (props) {
                     <input
                         type="text"
                         name={"email" + thisID}
-                        value={email}
-                        onChange={(e) => setEmail(e.target.value)}
+                        value={MyEmail}
+                        onChange={(e) => setMyEmail(e.target.value)}
                     />
                 ) : (
-                    <p>{email}</p>
+                    <p>{MyEmail}</p>
                 )}
             </div>
         </div>

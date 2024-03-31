@@ -42,9 +42,14 @@ body{
   margin:0;
   background-color: var(--Color1);
   display: flex;
-  
+  overflow-y: auto;
 }
 
 button{
   cursor: pointer; 
+}
+@media only screen and (max-width: 500px) {
+  body {
+    width: 100vw;
+  }
 }
