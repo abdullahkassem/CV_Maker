@@ -6,8 +6,12 @@
 
 
 ## Summary
+This webstie is designed so that you can enter your details and then you are able to create a resume following this template.
+
+The website is loaded with dummy data at first, to start simply press the edit button and enter your own data.
+
 This was my first react project. In it I was able to make use of the concepts I learned such as:
-- Components
+- React Components
 - JSX
 - Props 
 - Sharing data and state across components 
