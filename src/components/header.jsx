@@ -26,9 +26,9 @@ function Header (props){
     <div className='header'>
         <h2 className='header_text'>Create your resume by entering your details below</h2>
         <div className="HButtonContainer">
-            <HeaderButton text = 'Reset'/>
+            {/* <HeaderButton text = 'Reset'/> */}
             <HeaderButton text = {editButText} handleClick={editHandler}/>
-            <HeaderButton text = 'Print'/>
+            {/* <HeaderButton text = 'Print'/> */}
         </div>
         
         
