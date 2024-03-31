@@ -3,7 +3,7 @@
     background-color: white;
     border-radius: 10px;
     min-height: 80vh;
-    max-width: 1250px;
+    max-width: min(75vw,1250px);
     font-family: lato, Avenir, Helvetica, Arial, sans-serif;
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -35,7 +35,11 @@
 }
 
 @media only screen and (max-width: 600px) {
-   .resumeContainer{
 
+    
+
+   .resumeContainer{
+    max-width: 1250px;
+    /* width: ; */
    }
 }
