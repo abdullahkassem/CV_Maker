@@ -1,4 +1,5 @@
-<img width="315" alt="image" src="https://github.com/abdullahkassem/CV_Maker/assets/67856840/86ada263-5758-4db4-be38-366bd1a04e75"># CV_Maker
+
+# CV_Maker
 
 **Scroll below for screenshots**
 
