@@ -1,0 +1,38 @@
+.RemovableItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:5px 0;
+    margin-right: 10px;
+}
+
+.RemovableItem *{
+    flex: 0 0 auto;
+    
+}
+
+.RemovableItem li{
+    margin: 0;
+}
+
+.RemoveButton{
+    background-color: red;
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+    margin: 0;
+    padding: 0;
+    border-radius: 50%;
+    border: 0;
+    box-sizing: border-box;
+    height: 25px;
+    width: 25px;
+    
+    text-align: center;
+    line-height: 1;
+    position: relative;
+}
+
+.RemoveButton::after{
+    content: '-';
+}

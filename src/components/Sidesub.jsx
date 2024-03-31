@@ -1,24 +1,20 @@
 import '../styles/Sidesub.css'
+import { useState, useId, useContext } from 'react';
+import { EditContext } from './EditContext';
 
-import { useState } from 'react';
-import Editable from './Editable';
-
-
-function Sidesub(props){
+function Sidesub(props) {
     const [value, setValue] = useState(props.detail);
+    const edit = useContext(EditContext);
 
-    function changeHandle(event){
+    function changeHandle(event) {
         setValue(event.target.value);
     }
-    return(
+    return (
         <div className="Sidesub">
             <h3 >{props.head}</h3>
 
-            <Editable 
-            editTrueFunc={()=>(<input type="text" onChange={changeHandle} value={value}/>)} 
-            editFalseFunc={()=>(<h4 >{value}</h4>)}
-            />
-            
+            {(edit.edit == '1') ? (<input type="text" name={props.head} onChange={changeHandle} value={value} />) : (<h4 >{value}</h4>)}
+
         </div>
     )
 }
