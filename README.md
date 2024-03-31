@@ -1,5 +1,11 @@
 # CV_Maker
-working version
+
+**Scroll below for screenshots**
+
+## [Live Demo](https://6609ee09d2b5ac1aefa8ca80--beautiful-crisp-5cc042.netlify.app/)
+
+
+## Summary
 This was my first react project. In it I was able to make use of the concepts I learned such as:
 - Components
 - JSX
@@ -8,3 +14,18 @@ This was my first react project. In it I was able to make use of the concepts I 
 - Hooks (useState, useContext, useEffect)
 - Rendering
 - And more.
+
+## Screenshots
+
+### preview mode: 
+<img src='https://github.com/abdullahkassem/CV_Maker/assets/67856840/0d305822-d98b-42ef-8839-9ed01172cc75' width='500'>
+<img src='https://github.com/abdullahkassem/CV_Maker/assets/67856840/bfe61fd5-9d0b-41c9-bbb4-72ab49b29389' width='500'>
+
+### edit mode:
+<img src='https://github.com/abdullahkassem/CV_Maker/assets/67856840/80c0f707-424e-403c-b34a-ac366e5246cd' width='500'>
+<img src='https://github.com/abdullahkassem/CV_Maker/assets/67856840/edf24cd0-013c-4e68-9930-6f27b248ecef' width='500'>
+
+### mobile view:
+<img src='https://github.com/abdullahkassem/CV_Maker/assets/67856840/66407fe4-2444-4ab8-9280-1bb517ba017b' width='200'>
+
+
